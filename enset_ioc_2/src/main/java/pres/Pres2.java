@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Pres2 {
     public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(new File("src/config.txt"));
+        Scanner sc = new Scanner(new File("config.txt"));
 
         String daoClassName = sc.nextLine();
         // il recherche le nom de classe il verifie s'il existe en memoire
