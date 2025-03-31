@@ -2,7 +2,7 @@ package metier;
 
 import dao.IDao;
 
-public class IMetierImpl implements IMetier {
+public class MetierImpl implements IMetier {
 
     private IDao dao; // couplage faible
 
@@ -17,7 +17,10 @@ public class IMetierImpl implements IMetier {
         qui implemente l'interface IDao
      */
 
-    public void setDao(IDao dao) {
+   public void setDao(IDao dao) {
         this.dao = dao;
-    }
+   }
+   /* public void setData(IDao dao) {
+        this.dao = dao;
+    }*/
 }
